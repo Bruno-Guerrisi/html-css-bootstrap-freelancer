@@ -87,6 +87,12 @@ header nav .container ul li a.text_nav_header{
     font-size: 11px;
 }
 
+/* portfolio */
+.portfolio .row img {
+    width: 100%;
+    border-radius: 10px;
+}
+
 
 /* RESIZE TEXT */
 @media screen and (min-width: 413px) {
