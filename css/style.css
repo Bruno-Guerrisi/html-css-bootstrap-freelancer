@@ -8,8 +8,18 @@
 
 /* debug */
 
-header{
+.background_header_nav{
     background-color: #2c3e50;
+}
+header nav .container .text_nav_header{
+    color: white;
+}
+header nav .container ul li a.text_nav_header{
+    color: white;
+}
+
+header nav .container .buttton_color_header {
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .about,
