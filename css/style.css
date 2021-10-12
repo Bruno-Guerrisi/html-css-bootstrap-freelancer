@@ -95,7 +95,56 @@ header nav .container ul li a.text_nav_header{
     border-radius: 10px;
 }
 
-/* about */
+/* contact */
+.contact{
+    color: black;
+}
+
+.form_contact textarea,
+.form_contact input{
+    padding: 0 0 10px;
+}
+
+.input_style{
+    border: 0;
+    border-bottom: 1px solid #aaa;
+    margin: 0;
+    border-radius: 0;
+}
+
+.button{
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
+
+#FormControlInputName::placeholder,
+#FormControlInputEmail::placeholder,
+#FormControlInputTel::placeholder,
+.form_contact div label.label_message {
+    color: #2c3e50;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* ANIMATION */
+
+.button:hover{
+    background-color: #008d71;
+    border-color: #008d71;
+}
+
+.form_contact textarea:focus,
+.form_contact input:focus{
+    box-shadow: none;
+    border-color: black;
+}
+
+#FormControlInputName:hover,
+#FormControlInputEmail:hover,
+#FormControlInputTel:hover,
+.form_contact div label.label_message:hover {
+    cursor: pointer;
+}
 
 
 /* RESIZE TEXT */
