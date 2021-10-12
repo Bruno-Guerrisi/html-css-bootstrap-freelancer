@@ -1,18 +1,7 @@
-.box_debug{
-    width: 100%;
-    min-height: 50px;
-    background-color: #140f0f9f;
-    color: white;
-    padding: 10px;
-}
 
 body{
     color: white;
 }
-
-
-
-/* debug */
 
 /*  utilities */
 
@@ -70,10 +59,7 @@ footer{
 
 
 /* HEADER */
-header nav .container .text_nav_header{
-    color: white;
-}
-header nav .container ul li a.text_nav_header{
+.text_nav_header{
     color: white;
 }
 
@@ -94,6 +80,7 @@ header nav .container ul li a.text_nav_header{
     width: 100%;
     border-radius: 10px;
 }
+
 
 /* contact */
 .contact{
@@ -126,8 +113,26 @@ header nav .container ul li a.text_nav_header{
     font-weight: 600;
 }
 
-/* ANIMATION */
 
+/* footer */
+.border_social{
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.border_social a{
+    color: white;
+}
+
+.color_text{
+    color: #1abc9c;
+}
+
+
+/* ANIMATION */
 .button:hover{
     background-color: #008d71;
     border-color: #008d71;
@@ -139,11 +144,45 @@ header nav .container ul li a.text_nav_header{
     border-color: black;
 }
 
-#FormControlInputName:hover,
-#FormControlInputEmail:hover,
-#FormControlInputTel:hover,
+#FormControlInputName:hover::placeholder,
+#FormControlInputEmail:hover::placeholder,
+#FormControlInputTel:hover::placeholder,
 .form_contact div label.label_message:hover {
+    color: #008d71;
+}
+
+.cursor_pointer{
     cursor: pointer;
+}
+
+.hover_color:hover{
+    color: #008d71;
+}
+
+/* animation image */
+.hover_image{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plus_hover{
+    position: absolute;
+    font-size: 52px;
+    display: none;
+}
+
+.hover_image:hover::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.hover_image:hover .plus_hover{
+    display: block;
 }
 
 
@@ -156,6 +195,10 @@ header nav .container ul li a.text_nav_header{
 
     h2{
         font-size: 30px;
+    }
+
+    h4{
+        font-size: 20px;
     }
 
     .start_bootstrap .title_section span.text-uppercase{
@@ -171,6 +214,7 @@ header nav .container ul li a.text_nav_header{
     h2{
         font-size: 38px;
     }
+
 
     .start_bootstrap .title_section span.text-uppercase{
         font-size: 26px;

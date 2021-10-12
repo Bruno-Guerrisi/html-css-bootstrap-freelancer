@@ -25,7 +25,7 @@
         <nav class="navbar navbar-expand-md background_header_nav">
 
             <div class="container max_width_header_lg">
-                <a class="navbar-brand text_nav_header text-uppercase" href="#">start bootstrap</a>
+                <a class="navbar-brand text_nav_header text-uppercase hover_color" href="#">start bootstrap</a>
 
                 <button class="navbar-toggler navbar-light buttton_color_header" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -35,13 +35,13 @@
                     <ul class="navbar-nav mr-auto">
 
                         <li class="nav-item">
-                            <a class="nav-link text_nav_header" href="#">Profilo</a>
+                            <a class="nav-link text_nav_header hover_color" href="#">Profilo</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text_nav_header" href="#">About</a>
+                            <a class="nav-link text_nav_header hover_color" href="#">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text_nav_header" href="#">Contact</a>
+                            <a class="nav-link text_nav_header hover_color" href="#">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -94,28 +94,52 @@
                 <!-- image portfolio -->
                 <div class="row">
 
-                    <div class="col-12 col-md-6 col-lg-4 p-3 rounded">
-                        <img src="./img/cabin.png" alt="cabin">
+                    <div class="col-12 col-md-6 col-lg-4 p-3">
+
+                        <div class="hover_image cursor_pointer">
+                            <img src="./img/cabin.png" alt="cabin">
+                            <i class="fas fa-plus plus_hover"></i>
+                        </div>
                     </div>
 
-                    <div class="col-12 col-md-6 col-lg-4 p-3 rounded">
-                        <img src="./img/cake.png" alt="cake">
+                    <div class="col-12 col-md-6 col-lg-4 p-3">
+
+                        <div class="hover_image cursor_pointer">
+                            <img src="./img/cake.png" alt="cake">
+                            <i class="fas fa-plus plus_hover"></i>
+                        </div>
                     </div>
 
-                    <div class="col-12 col-md-6 col-lg-4 p-3 rounded">
-                        <img src="./img/circus.png" alt="circus">
+                    <div class="col-12 col-md-6 col-lg-4 p-3">
+
+                        <div class="hover_image cursor_pointer">
+                            <img src="./img/circus.png" alt="circus">
+                            <i class="fas fa-plus plus_hover"></i>
+                        </div>
                     </div>
 
-                    <div class="col-12 col-md-6 col-lg-4 p-3 rounded">
-                        <img src="./img/game.png" alt="game">
+                    <div class="col-12 col-md-6 col-lg-4 p-3">
+
+                        <div class="hover_image cursor_pointer">
+                            <img src="./img/game.png" alt="game">
+                            <i class="fas fa-plus plus_hover"></i>
+                        </div>
                     </div>
 
-                    <div class="col-12 col-md-6 col-lg-4 p-3 rounded">
-                        <img src="./img/safe.png" alt="safe">
+                    <div class="col-12 col-md-6 col-lg-4 p-3">
+
+                        <div class="hover_image cursor_pointer">
+                            <img src="./img/safe.png" alt="safe">
+                            <i class="fas fa-plus plus_hover"></i>
+                        </div>
                     </div>
 
-                    <div class="col-12 col-md-6 col-lg-4 p-3 rounded">
-                        <img src="./img/submarine.png" alt="submarine">
+                    <div class="col-12 col-md-6 col-lg-4 p-3">
+
+                        <div class="hover_image cursor_pointer">
+                            <img src="./img/submarine.png" alt="submarine">
+                            <i class="fas fa-plus plus_hover"></i>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -184,23 +208,23 @@
                         <form class="form_contact">
                             <div class="mb-4">
 
-                                <input type="name" class="form-control input_style" id="FormControlInputName" placeholder="Name">
+                                <input type="name" class="form-control input_style cursor_pointer" id="FormControlInputName" placeholder="Name">
                             </div>
 
                             <div class="mb-4">
 
-                                <input type="email" class="form-control input_style" id="FormControlInputEmail" placeholder="Email Address">
+                                <input type="email" class="form-control input_style cursor_pointer" id="FormControlInputEmail" placeholder="Email Address">
                             </div>
 
                             <div class="mb-4">
 
-                                <input type="tel" class="form-control input_style" id="FormControlInputTel" placeholder="Phone Number">
+                                <input type="tel" class="form-control input_style cursor_pointer" id="FormControlInputTel" placeholder="Phone Number">
                             </div>
 
                             <div class="mb-3">
-                                <label for="FormControlInputMessage" class="form-label label_message">Message</label>
+                                <label for="FormControlInputMessage" class="form-label label_message cursor_pointer">Message</label>
 
-                                <textarea class="form-control input_style" id="FormControlInputMessage" rows="3"></textarea>
+                                <textarea class="form-control input_style cursor_pointer" id="FormControlInputMessage" rows="3"></textarea>
                             </div>
 
                             <button type="button" class="btn btn-primary button">Send</button>
@@ -218,30 +242,57 @@
 
                 <div class="row">
 
-                    <div class="col-12 col-md-4 p-3">
-                        <div class="box_debug">Box 50px</div>
-                        <div class="box_debug">Box 50px</div>
-                        <div class="box_debug">Box 50px</div>
-                        <div class="box_debug">Box 50px</div>
+                    <div class="col-12 col-md-4 p-2 d-flex flex-column align-items-center">
+
+                        <h4 class="text-uppercase">location</h4>
+                        <p class="text-center">2215 John Daniel Drive Clark, MO 54243</p>
                     </div>
 
-                    <div class="col-12 col-md-4 p-3">
-                        <div class="box_debug">Box 50px</div>
-                        <div class="box_debug">Box 50px</div>
-                        <div class="box_debug">Box 50px</div>
-                        <div class="box_debug">Box 50px</div>
+                    <div class="col-12 col-md-4 p-2 d-flex flex-column align-items-center">
+
+                        <h4 class="text-uppercase">around the web</h4>
+                        <div class="social d-flex">
+
+                            <!-- facebook -->
+                            <div class="border_social d-flex justify-content-center align-items-center cursor_pointer">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </div>
+
+                            <!-- google -->
+                            <div class="border_social d-flex justify-content-center align-items-center">
+                                <a href="#">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </a>
+                            </div>
+
+                            <!-- twitter -->
+                            <div class="border_social d-flex justify-content-center align-items-center">
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+
+                            <!-- linkedin -->
+                            <div class="border_social d-flex justify-content-center align-items-center">
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="col-12 col-md-4 p-3">
-                        <div class="box_debug">Box 50px</div>
-                        <div class="box_debug">Box 50px</div>
-                        <div class="box_debug">Box 50px</div>
-                        <div class="box_debug">Box 50px</div>
+                    <div class="col-12 col-md-4 p-2 d-flex flex-column align-items-center">
+                        
+                        <h4 class="text-uppercase">about freelancer</h4>
+                        <p class="text-center">Freelancer is a free to use, open source Bootstrap theme created by <span class="color_text">Start Bootstrap</span>.</p>
                     </div>
     
                 </div>
             </section>
 
+            <!-- COPYRIGHT -->
             <section class="p-4 container-sm container-md container-lg footer_info
             d-flex justify-content-center">
 
@@ -249,6 +300,6 @@
             </section>
         </div>
     </footer>
-    
+
 </body>
 </html>
